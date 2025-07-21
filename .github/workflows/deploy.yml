@@ -6,11 +6,11 @@ on:
       - develop
 
 env:
-  AWS_REGION: ap-northeast-2
+  AWS_REGION: ap-southeast-2
   S3_BUCKET_NAME: grabpt-github-actions-s3-bucket
   CODE_DEPLOY_APPLICATION_NAME: grabpt-codedeploy-app
   CODE_DEPLOY_DEPLOYMENT_GROUP_NAME: grabpt-codedeploy-deployment-group
-  AWS_DEFAULT_REGION: ap-northeast-2
+  AWS_DEFAULT_REGION: ap-southeast-2
   AWS_S3_ACL: bucket-owner-full-control
 
 permissions:
