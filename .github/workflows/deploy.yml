@@ -51,7 +51,7 @@ jobs:
             build/libs/*.jar
             scripts/**
             appspec.yml
-            .env  
+            .env.properties
 
   transfer:
     name: Transfer
