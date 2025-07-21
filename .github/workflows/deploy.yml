@@ -31,7 +31,7 @@ jobs:
 
         # secrets의 env 파일 빌드
       - name: Create .env file from secret
-        run: echo "${{ secrets.ENV_FILE_CONTENTS }}" > .env
+        run: echo "${{ secrets.ENV_PROPERTIES }}" > .env
 
       - name: Check .env file content (safe debug)
         run: |
